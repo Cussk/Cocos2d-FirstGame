@@ -117,7 +117,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/proj.win32/bin/FirstGame/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -283,7 +284,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/proj.win32/bin/FirstGame/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -449,7 +451,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/proj.win32/bin/FirstGame/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -614,7 +617,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll C:/Users/cussk/cocos/Cocos2d-FirstGame/FirstGame/proj.win32/bin/FirstGame/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -805,13 +809,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GraphicsScene.cpp" />
+    <ClInclude Include="..\Classes\IntroScene.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\AppDelegate.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\HelloWorldScene.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\main.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\IntroScene.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\AppDelegate.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\main.cpp" />
+    <ClInclude Include="GraphicsScene.h" />
     <ResourceCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\game.rc" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Resources\CloseNormal.png" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Resources\CloseSelected.png" />
@@ -882,6 +890,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{C41ACB13-DF77-311B-BCFF-40B763FC3B38}</Project>
       <Name>external</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\decepticon.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
