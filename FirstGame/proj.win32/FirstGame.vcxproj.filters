@@ -37,6 +37,9 @@
     <ClCompile Include="..\Classes\KeyboardPollScene.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\KeyTabletScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\AppDelegate.h">
@@ -91,6 +94,9 @@
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\KeyboardPollScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyTabletScene.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>

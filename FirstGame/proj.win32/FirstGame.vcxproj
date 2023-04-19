@@ -813,6 +813,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="..\Classes\IntroScene.h" />
     <ClInclude Include="..\Classes\KeyboardPollScene.h" />
     <ClInclude Include="..\Classes\KeyboardScene.h" />
+    <ClInclude Include="..\Classes\KeyTabletScene.h" />
     <ClInclude Include="..\Classes\MouseScene.h" />
     <ClInclude Include="..\Classes\MultiTouchScene.h" />
     <ClInclude Include="..\Classes\TouchScene.h" />
@@ -825,6 +826,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\Classes\IntroScene.cpp" />
     <ClCompile Include="..\Classes\KeyboardPollScene.cpp" />
     <ClCompile Include="..\Classes\KeyboardScene.cpp" />
+    <ClCompile Include="..\Classes\KeyTabletScene.cpp" />
     <ClCompile Include="..\Classes\MouseScene.cpp" />
     <ClCompile Include="..\Classes\MultiTouchScene.cpp" />
     <ClCompile Include="..\Classes\TouchScene.cpp" />

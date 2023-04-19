@@ -7,6 +7,7 @@
 #include "MouseScene.h"
 #include "KeyboardScene.h"
 #include "KeyboardPollScene.h"
+#include "KeyTabletScene.h"
 
 USING_NS_CC;
 
@@ -42,7 +43,8 @@ bool AppDelegate::applicationDidFinishLaunching()
     //auto scene = MultiTouch::createScene();
     //auto scene = MouseScene::createScene();
     //auto scene = KeyboardScene::createScene();
-    auto scene = KeyboardPollScene::createScene();
+    //auto scene = KeyboardPollScene::createScene();
+    auto scene = KeyTabletScene::createScene();
 
     //use on scene game will start with only
     director->runWithScene(scene);
