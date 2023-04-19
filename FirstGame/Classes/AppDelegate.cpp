@@ -1,6 +1,12 @@
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
 #include "GraphicsScene.h"
+#include "TouchScene.h"
+#include "TouchSceneLambda.h"
+#include "MultiTouchScene.h"
+#include "MouseScene.h"
+#include "KeyboardScene.h"
+#include "KeyboardPollScene.h"
 
 USING_NS_CC;
 
@@ -19,16 +25,25 @@ bool AppDelegate::applicationDidFinishLaunching()
 {
     //get instance of director
     auto director = Director::getInstance();
-    //set up game window
+
+	//set up game window
     auto glview = director->getOpenGLView();
     if (!glview) {
-        glview = GLViewImpl::create("Hello World");
-        glview->setFrameSize(640, 480);
+        glview = GLViewImpl::create("Tutorial");
+        //glview->setFrameSize(640, 480);
         director->setOpenGLView(glview);
     }
 
     //create instance of scene
-    auto scene = GraphicsScene::createScene();
+    //auto scene = HelloWorld::createScene();
+    //auto scene = GraphicsScene::createScene();
+    //auto scene = TouchScene::createScene();
+    //auto scene = TouchSceneLambda::createScene();
+    //auto scene = MultiTouch::createScene();
+    //auto scene = MouseScene::createScene();
+    //auto scene = KeyboardScene::createScene();
+    auto scene = KeyboardPollScene::createScene();
+
     //use on scene game will start with only
     director->runWithScene(scene);
 

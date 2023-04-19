@@ -809,17 +809,29 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GraphicsScene.cpp" />
+    <ClInclude Include="..\Classes\GraphicsScene.h" />
     <ClInclude Include="..\Classes\IntroScene.h" />
+    <ClInclude Include="..\Classes\KeyboardPollScene.h" />
+    <ClInclude Include="..\Classes\KeyboardScene.h" />
+    <ClInclude Include="..\Classes\MouseScene.h" />
+    <ClInclude Include="..\Classes\MultiTouchScene.h" />
+    <ClInclude Include="..\Classes\TouchScene.h" />
+    <ClInclude Include="..\Classes\TouchSceneLambda.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\AppDelegate.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\HelloWorldScene.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\main.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\GraphicsScene.cpp" />
     <ClCompile Include="..\Classes\IntroScene.cpp" />
+    <ClCompile Include="..\Classes\KeyboardPollScene.cpp" />
+    <ClCompile Include="..\Classes\KeyboardScene.cpp" />
+    <ClCompile Include="..\Classes\MouseScene.cpp" />
+    <ClCompile Include="..\Classes\MultiTouchScene.cpp" />
+    <ClCompile Include="..\Classes\TouchScene.cpp" />
+    <ClCompile Include="..\Classes\TouchSceneLambda.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\AppDelegate.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\main.cpp" />
-    <ClInclude Include="GraphicsScene.h" />
     <ResourceCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\game.rc" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Resources\CloseNormal.png" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Resources\CloseSelected.png" />
@@ -892,6 +904,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\Resources\autobot.png" />
     <Image Include="..\Resources\decepticon.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
