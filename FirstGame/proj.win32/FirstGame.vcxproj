@@ -809,8 +809,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\Actions.h" />
+    <ClInclude Include="..\Classes\ActionsPause.h" />
+    <ClInclude Include="..\Classes\GameLoop.h" />
     <ClInclude Include="..\Classes\GraphicsScene.h" />
-    <ClInclude Include="..\Classes\IntroScene.h" />
     <ClInclude Include="..\Classes\KeyboardPollScene.h" />
     <ClInclude Include="..\Classes\KeyboardScene.h" />
     <ClInclude Include="..\Classes\KeyTabletScene.h" />
@@ -822,8 +824,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Classes\HelloWorldScene.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\main.h" />
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\proj.win32\resource.h" />
+    <ClCompile Include="..\Classes\Actions.cpp" />
+    <ClCompile Include="..\Classes\ActionsPause.cpp" />
+    <ClCompile Include="..\Classes\GameLoop.cpp" />
     <ClCompile Include="..\Classes\GraphicsScene.cpp" />
-    <ClCompile Include="..\Classes\IntroScene.cpp" />
     <ClCompile Include="..\Classes\KeyboardPollScene.cpp" />
     <ClCompile Include="..\Classes\KeyboardScene.cpp" />
     <ClCompile Include="..\Classes\KeyTabletScene.cpp" />

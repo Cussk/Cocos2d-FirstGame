@@ -1,4 +1,7 @@
 #include "AppDelegate.h"
+
+#include "Actions.h"
+#include "ActionsPause.h"
 #include "HelloWorldScene.h"
 #include "GraphicsScene.h"
 #include "TouchScene.h"
@@ -8,6 +11,7 @@
 #include "KeyboardScene.h"
 #include "KeyboardPollScene.h"
 #include "KeyTabletScene.h"
+#include "GameLoop.h"
 
 USING_NS_CC;
 
@@ -44,7 +48,10 @@ bool AppDelegate::applicationDidFinishLaunching()
     //auto scene = MouseScene::createScene();
     //auto scene = KeyboardScene::createScene();
     //auto scene = KeyboardPollScene::createScene();
-    auto scene = KeyTabletScene::createScene();
+    //auto scene = KeyTabletScene::createScene();
+    //auto scene = GameLoop::createScene();
+    //auto scene = Actions::createScene();
+    auto scene = ActionsPause::createScene();
 
     //use on scene game will start with only
     director->runWithScene(scene);

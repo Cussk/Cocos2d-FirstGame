@@ -13,9 +13,6 @@
     <ClCompile Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\cocos2d\cocos\precheader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\IntroScene.cpp">
-      <Filter>Source Files\Classes</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\GraphicsScene.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
@@ -38,6 +35,15 @@
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\KeyTabletScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLoop.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Actions.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ActionsPause.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,9 +78,6 @@
     <ClInclude Include="C:\Users\cussk\cocos\Cocos2d-FirstGame\FirstGame\Resources\res\.gitkeep">
       <Filter>Resources\res</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\IntroScene.h">
-      <Filter>Source Files\Classes</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\GraphicsScene.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
@@ -97,6 +100,15 @@
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\KeyTabletScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLoop.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Actions.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ActionsPause.h">
       <Filter>Source Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
