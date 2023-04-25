@@ -1,2 +1,2 @@
 # Cocos2d-FirstGame
- Cocos2d Game following official docs
+ Cocos2d notes following official docs
